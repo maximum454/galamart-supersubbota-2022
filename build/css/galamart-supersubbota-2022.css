@@ -269,6 +269,12 @@ p {
   right: -2px;
 }
 
+.supersubbota2022-category__stick img {
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .supersubbota2022-category__name {
   font-weight: 700;
   font-size: 24px;
@@ -487,6 +493,61 @@ p {
     padding: 20px 20px 40px;
     background-image: url("../img/slider-bg-mobile.png");
     background-position: top;
+  }
+
+  .supersubbota2022-category__header {
+    margin: 0 auto 20px;
+  }
+
+  .supersubbota2022-category__header p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 16px;
+  }
+
+  .supersubbota2022-category__title {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0 0 10px;
+  }
+
+  .supersubbota2022-category__body {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .supersubbota2022-category__item {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 32px 12px;
+  }
+
+  .supersubbota2022-category__img {
+    margin: -32px -12px 10px;
+  }
+
+  .supersubbota2022-category__img img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .supersubbota2022-category__stick {
+    max-width: 99px;
+  }
+
+  .supersubbota2022-category__name {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 16px;
+  }
+
+  .supersubbota2022-category__btn {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 10px 5px;
   }
 
   .summer2022-catalog {
