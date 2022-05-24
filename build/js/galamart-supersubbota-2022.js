@@ -20,6 +20,10 @@ $(function () {
     })
 
     $('.wrp').parent('.container').css({'max-width':'100%', 'padding':'0'});
+
+    $('.js-category-more').on('click', function (){
+        $('.supersubbota2022-category__body').removeClass('d-none')
+    })
 })
 
 const swiperBlock = new Swiper('.swiper-block', {

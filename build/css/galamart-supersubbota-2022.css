@@ -240,6 +240,7 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(245px, 1fr));
   grid-gap: 30px;
+  margin-bottom: 30px;
 }
 
 .supersubbota2022-category__item {
@@ -251,7 +252,7 @@ p {
   position: relative;
   display: block;
   text-decoration: none;
-  margin: -32px -63px 20px;
+  margin: -32px -50px 20px;
 }
 
 .supersubbota2022-category__img img {
@@ -265,8 +266,8 @@ p {
 
 .supersubbota2022-category__stick {
   position: absolute;
-  top: -2px;
-  right: -2px;
+  top: 0;
+  right: 0;
 }
 
 .supersubbota2022-category__stick img {
@@ -514,6 +515,7 @@ p {
   .supersubbota2022-category__body {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+    margin-bottom: 10px;
   }
 
   .supersubbota2022-category__item {
