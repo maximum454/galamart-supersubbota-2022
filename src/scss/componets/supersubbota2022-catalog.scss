@@ -1,6 +1,30 @@
 .supersubbota2022-catalog{
+  margin-bottom: 80px;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    bottom: -80px;
+    left: 50px;
+    background-image: url("../img/decor1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 72px;
+    height: 72px;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    top: 720px;
+    right: 0;
+    background-image: url("../img/decor2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 50px;
+    height: 206px;
+  }
   .slider-block{
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     position: relative;
     &__header{
       position: relative;
@@ -67,6 +91,9 @@
       display: flex;
       align-items: center;
       margin: 80px auto 0;
+      svg{
+        margin-right: 10px;
+      }
     }
     &.hidden{
       display: none;
@@ -132,8 +159,8 @@
       background-image: url("../img/slider-arrow-prev.svg");
       background-repeat: no-repeat;
       background-position: center;
-      width: 41px;
-      height: 64px;
+      width: 50px;
+      height: 50px;
       opacity: 1;
       left: 0;
     }
@@ -141,8 +168,8 @@
       background-image: url("../img/slider-arrow-next.svg");
       background-repeat: no-repeat;
       background-position: center;
-      width: 41px;
-      height: 64px;
+      width: 50px;
+      height: 50px;
       right: 0;
     }
     .swiper-button-disabled{
