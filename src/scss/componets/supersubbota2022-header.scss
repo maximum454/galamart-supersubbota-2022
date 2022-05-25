@@ -7,16 +7,16 @@
   &:after{
     content: '';
     position: absolute;
-    bottom: -40px;
+    bottom: -30px;
     left: 50%;
     right: 0;
     transform: translate(-50%,0);
     background-image: url("../img/back1.svg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain;
-    width: 1920px;
-    height: 40px;
+    width: 100%;
+    height: 32px;
   }
   &__body{
     position: relative;
